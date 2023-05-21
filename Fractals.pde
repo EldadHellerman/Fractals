@@ -1,7 +1,7 @@
 /*
 * A program that generated fractals.
 * It is very messy - I just quickly wrote it to get some beautiful results.
-* you can visit my website to read a blog article about it, link in my profiles README file.
+* you can visit my website to read a blog article about it, link in my profile's README file.
 * A mandelbrot set zoom in can be seen in the video.
 */
 
