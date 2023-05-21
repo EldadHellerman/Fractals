@@ -1,4 +1,7 @@
 public class Result{
+  /*
+  * A class to perform newtons method
+  */
   public Complex root;
   public int iterations;
   

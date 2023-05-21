@@ -1,3 +1,10 @@
+/*
+* A program that generated fractals.
+* It is very messy - I just quickly wrote it to get some beautiful results.
+* you can visit my website to read a blog article about it, link in my profiles README file.
+* A mandelbrot set zoom in can be seen in the video.
+*/
+
 final int MAX_ITERATIONS = 20;//20 
 final int MAX_ITERATIONS_NEWTON = 100;
 final int MAX_ZOOM = 20; //850
@@ -72,7 +79,7 @@ void computeFractals(){
         fractal[zoom_level].set(x, y, c);
       }
     }
-    img.save(savePath("burning ship 2/" + zoom_level + ".png"));
+    img.save(savePath("output/burning ship/" + zoom_level + ".png"));
     println(zoom_level + " / " + MAX_ZOOM);
   }
   //print("done");
@@ -187,7 +194,7 @@ void computeFractalsNewton(){
       }
     }
     //if(result != null) println(result.iterations + "iteration out of " + iter);
-    img.save(savePath("out newton 7/" + zoom_level + ".png"));
+    img.save(savePath("output/newton 7/" + zoom_level + ".png"));
     println(zoom_level + " / " + MAX_ZOOM);
   }
   //print("done");

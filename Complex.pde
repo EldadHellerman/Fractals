@@ -1,4 +1,7 @@
 class Complex{
+  /*
+  * A class for complex numbers
+  */
   public double x, y;
   
   public Complex(double x, double y){

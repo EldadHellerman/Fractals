@@ -1,4 +1,7 @@
 public class Polynom{
+  /*
+  * A class to represent polynomials.
+  */
   public int degree;
   public Complex[] coefficients;
   
